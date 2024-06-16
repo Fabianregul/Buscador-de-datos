@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h2>Tabla de Datos</h2>
+
+    <div id="form">
+      <input type="text" id="nombre" placeholder="Nombre">
+      <input type="number" id="edad" placeholder="Edad">
+      <input type="text" id="pais" placeholder="País">
+      <button onclick="agregarDato()">Agregar</button>
+    </div>
+  
+    <div id="search">
+      <input type="text" id="buscar" placeholder="Buscar...">
+      <button onclick="buscarDatos()">Buscar</button>
+      <button onclick="mostrarTodos()">Mostrar Todos</button>
+    </div>
+  
+    <div id="contador"></div>
+  
+    <table id="tabla">
+      <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>País</th>
+      </tr>
+    </table>
+  
+  
+      
+
+
+    <script src="script.js"></script>
+</body>
+</html>
